@@ -15,9 +15,9 @@ This CLI tool helps you manage HAProxy dynamic port forwarding tunnels on your s
 
 ## How to Install and Run
 
-You can download and install this tool with a single command on your server (Debian or Ubuntu):
-
-bash <(curl -sL https://raw.githubusercontent.com/mrtechii/haproxy-tunnel/main/haproxy.sh)
+You can download and install this tool with a single command on your server (Debian or Ubuntu)
+```bash
+bash <(curl -Ls --ipv4 [https://raw.githubusercontent.com/mrtechii/haproxy-tunnel/main/install.sh](https://raw.githubusercontent.com/mrtechii/haproxy-tunnel/main/install.sh)
 
 
 ## Support the Project
