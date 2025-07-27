@@ -1,0 +1,23 @@
+[client]
+remote_addr = "t.mrtech.bond:8080"
+#edge_ip = "188.114.96.0"
+transport = "wsmux"
+token = "your_token"
+connection_pool = 8
+aggressive_pool = false
+keepalive_period = 75
+nodelay = true
+retry_interval = 3
+dial_timeout = 10
+mux_version = 2
+mux_framesize = 32768
+mux_recievebuffer = 4194304
+mux_streambuffer = 2000000
+sniffer = false
+web_port = 0
+sniffer_log = "/root/log.json"
+log_level = "info"
+ip_limit= false
+tun_name = "backhaul"
+tun_subnet = "10.10.10.0/24"
+mtu = 1500
