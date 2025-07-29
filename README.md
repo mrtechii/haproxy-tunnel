@@ -17,11 +17,11 @@ This CLI tool helps you manage HAProxy dynamic port forwarding tunnels on your s
 
 You can download and install this tool with a single command on your server (Debian or Ubuntu)
 
-## v2.0.0(newer,ipv6 support)
+-   **v2.0.0(newer,ipv6 support)**
 ```bash
 bash <(curl -Ls https://raw.githubusercontent.com/mrtechii/haproxy-tunnel/main/install.sh)
 ```
-## v1.0.0(older,no ipv6 support)
+-   **v1.0.0(older,no ipv6 support)**
 ```bash
 bash <(curl -Ls https://raw.githubusercontent.com/mrtechii/haproxy-tunnel/main/haproxy.sh)
 ```
