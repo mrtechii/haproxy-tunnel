@@ -16,7 +16,10 @@ This CLI tool helps you manage HAProxy dynamic port forwarding tunnels on your s
 ## How to Install and Run
 
 You can download and install this tool with a single command on your server (Debian or Ubuntu)
-
+-   **v3.0.0 (new futures added,telegram bot support)**
+```bash
+ bash <(curl -Ls https://github.com/mrtechii/haproxy-tunnel/releases/download/v3.0.0/install.sh)
+```
 -   **v2.0.0 (newer,ipv6 support)**
 ```bash
 bash <(curl -Ls https://raw.githubusercontent.com/mrtechii/haproxy-tunnel/main/install.sh)
