@@ -1265,7 +1265,7 @@ EOF
     # Make sure the directory itself has execute for root if it's new
     # For /root/, it should already have 755 or 700.
     # We still ensure script and data file have specific permissions.
-    sudo chmod +x install.sh
+    sudo chmod +x install2.sh
     sudo chmod 755 "$PYTHON_BOT_SCRIPT_PATH" # Executable by owner, readable by others (not strictly needed for root but good practice)
     sudo chmod 600 "$DATA_FILE" # Readable/writable only by owner (root)
     info_msg "Permissions adjusted for script and data file."
