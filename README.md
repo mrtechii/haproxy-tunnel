@@ -22,7 +22,7 @@ You can download and install this tool with a single command on your server (Deb
 ```
 -   **v2.0.0 (newer,ipv6 support)**
 ```bash
-bash <(curl -Ls https://raw.githubusercontent.com/mrtechii/haproxy-tunnel/main/install.sh)
+ bash <(curl -Ls https://github.com/mrtechii/haproxy-tunnel/releases/download/v2.0.0/install.sh)
 ```
 -   **v1.0.0 (older,no ipv6 support)**
 ```bash
